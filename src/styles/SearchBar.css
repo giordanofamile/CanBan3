@@ -1,0 +1,36 @@
+.search-bar-container {
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      width: 100%;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: #635fc7;
+    }
+
+    .clear-search-btn {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      color: #828fa3;
+    }
+
+    .clear-search-btn:hover {
+      color: #635fc7;
+    }

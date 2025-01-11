@@ -1,0 +1,68 @@
+.heading-XL {
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    .heading-L {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 28px;
+    }
+
+    .heading-M {
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 21px;
+    }
+
+    .heading-S {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 2.4px;
+    }
+
+    .text-L {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    .text-M {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .heading-XL {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      .heading-L {
+        font-size: 18px;
+        line-height: 23px;
+      }
+
+      .heading-M {
+        font-size: 15px;
+        line-height: 19px;
+      }
+
+      .heading-S {
+        font-size: 12px;
+        line-height: 15px;
+      }
+
+      .text-L {
+        font-size: 13px;
+        line-height: 23px;
+      }
+
+      .text-M {
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
